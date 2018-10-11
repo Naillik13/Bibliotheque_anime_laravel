@@ -1,0 +1,159 @@
+﻿body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: url('../img/wallpaper6.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+*{
+    box-sizing:border-box;
+}
+a {
+    text-decoration: none;
+
+}
+#nav{
+    padding:1rem 11%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+#nav_logo img{
+    height:80px;
+}
+
+nav ul{
+    list-style-type:none;
+    display:flex;
+}
+li{
+    margin-left:2rem;
+
+}
+li a{
+    text-transform:uppercase;
+    font-family:'Karla', sans-serif;
+    color:white;
+}
+.container{
+    padding:4rem;
+    background:white;
+}
+.block_anime img{
+    display: block;
+    height: 331px;
+    width: 234px;
+}
+.liste_anime{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.block_anime{
+    position:relative;
+    width:234px;
+    margin-bottom:20px;
+    text-align:center;
+    overflow:hidden;
+}
+.block_anime a {
+    position: absolute;
+    top: 80%;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    transition: top .7s ease-in-out;
+}
+.block_anime h3{
+    text-transform:uppercase;
+    font-family: 'Karla', sans-serif;
+    font-weight:400;
+    margin: 1.2em 0px;
+}
+.block_anime p{
+    font-size:13px;
+    text-align:left;
+    font-weight:300;
+    padding:0 20px;
+    margin-top:20px;
+    text-align:justify;
+
+}
+.block_anime .description{
+    width:100%;
+    height:331px;
+    position:relative;
+}
+.block_anime:hover a{
+    top:0;
+}
+.titre{
+    height:67px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.line{
+    height:3px;
+    background-color:red;
+    width:90px;
+    margin:auto;
+}
+.more{
+    position:absolute;
+    bottom:20px;
+    right:20px;
+    color:red;
+    text-transform:uppercase;
+    font-size:14px;
+    font-family:'Karla', sans-serif;
+}
+.statut::before{
+  content:"";
+  position:absolute;
+  width: 278px;
+  height: 18px;
+  left:80px;
+  top:20px;
+  transform: rotate(45deg);
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.35);
+}
+.view::before{
+  background-color: rgba(95, 255, 95, 0.59);
+}
+.start::before{
+  background-color: rgba(255, 118, 118, 0.59);
+}
+.no_view::before{
+  background-color: rgba(255, 66, 66, 0.68);
+}
+
+
+
+
+html,
+#particle-slider {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+    html .slides,
+    #particle-slider .slides,
+    html > .dg,
+    #particle-slider > .dg {
+        display: none;
+    }
+
+#header_index {
+  background:none;
+}
+
+ .dg {
+    display: none;
+}
